@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/QGIS_logo%2C_2017.svg" width="100" alt="QGIS Logo"/>
+  <img src="https://icon-icons.com/id/icon/qgis-logo/170816" width="100" alt="QGIS Logo"/>
   <img src="https://leafletjs.com/docs/images/logo.png" width="150" alt="Leaflet Logo"/>
 </p>
 
