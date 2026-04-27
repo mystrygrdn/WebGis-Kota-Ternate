@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qgis/qgis-original.svg" width="80" alt="QGIS Logo"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leaflet/leaflet-original.svg" width="100" alt="Leaflet Logo"/>
+  <img src="https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white" alt="QGIS Logo"/>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Leaflet-19AD13?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet Logo"/>
 </p>
 
 <h1 align="center">🗺️ Interactive WebGIS: Regional Spatial Data</h1>
@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Leaflet-19AD13?style=for-the-badge&logo=Leaflet&logoColor=white" alt="Leaflet"/>
-  <img src="https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=QGIS&logoColor=white" alt="QGIS"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
 </p>
 
 ---
@@ -60,3 +60,5 @@ Proyek ini mencakup data spasial yang terbagi dalam beberapa kategori utama:
     - `Leaflet-Hash` (URL tracking)
     - `Autolinker` (Clickable links)
     - `L.Control.Layers.Tree` (Manajemen layer)
+
+---
