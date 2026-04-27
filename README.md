@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://icon-icons.com/id/icon/qgis-logo/170816" width="100" alt="QGIS Logo"/>
-  <img src="https://leafletjs.com/docs/images/logo.png" width="150" alt="Leaflet Logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qgis/qgis-original.svg" width="80" alt="QGIS Logo"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leaflet/leaflet-original.svg" width="100" alt="Leaflet Logo"/>
 </p>
 
 <h1 align="center">🗺️ Interactive WebGIS: Regional Spatial Data</h1>
@@ -12,11 +13,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Leaflet-19AD13?style=flat&logo=Leaflet&logoColor=white" alt="Leaflet"/>
-  <img src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=QGIS&logoColor=white" alt="QGIS"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/GIS-Spatial%20Data-blue" alt="GIS"/>
-  <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status"/>
+  <img src="https://img.shields.io/badge/Leaflet-19AD13?style=for-the-badge&logo=Leaflet&logoColor=white" alt="Leaflet"/>
+  <img src="https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=QGIS&logoColor=white" alt="QGIS"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
 </p>
 
 ---
@@ -32,23 +31,23 @@ The system includes advanced features like highlight effects on hover, detailed 
 ## ✨ Key Features
 
 - **Interactive Layer Control:** Toggle between 30+ spatial layers including administration, roads, and land use.
-- **Advanced Measurement Tool:** Built-in tool to measure distance (meters/km) and area (hectares) directly on the map.
-- **Dynamic Feature Highlighting:** Visual feedback when hovering over administrative boundaries or landmarks.
-- **Smart Popups:** Automatically filters and displays relevant data attributes from the GeoJSON datasets.
-- **Google Earth Integration:** Uses high-resolution satellite imagery as the base layer.
+- **Advanced Measurement Tool:** Built-in tool to measure distance (meters/km) and area (hectares) langsung di peta.
+- **Dynamic Feature Highlighting:** Visual feedback saat kursor berada di atas batas administrasi atau objek penting.
+- **Smart Popups:** Otomatis memfilter dan menampilkan atribut data dari dataset GeoJSON.
+- **Google Earth Integration:** Menggunakan citra satelit resolusi tinggi sebagai base layer.
 
 ---
 
 ## 📊 Data Layers Summary
 
-The map categorizes spatial data into three main types:
+Proyek ini mencakup data spasial yang terbagi dalam beberapa kategori utama:
 
 | Layer Category | Data Included |
 |---|---|
-| **Administration** | District boundaries (Kecamatan), Coastal lines, Boundary pillars. |
-| **Land Use (AR)** | Settlement areas, Forests, Agriculture, Shrublands, and Water bodies. |
-| **Infrastructure (PT)** | Schools, Hospitals, Government offices, Ports, and Airports. |
-| **Topography (LN)** | River networks, Road networks, and Elevation contours. |
+| **Administration** | Batas Kecamatan, Garis Pantai, Pilar Batas. |
+| **Land Use (AR)** | Pemukiman, Hutan, Pertanian, Semak Belukar, dan Perairan. |
+| **Infrastructure (PT)** | Sarana Pendidikan, RS/Puskesmas, Kantor Pemerintahan, Pelabuhan, & Bandara. |
+| **Topography (LN)** | Jaringan Sungai, Jaringan Jalan, dan Garis Kontur. |
 
 ---
 
@@ -57,9 +56,7 @@ The map categorizes spatial data into three main types:
 - **Mapping Engine:** Leaflet.js
 - **Data Source:** QGIS (processed from 50K scale regional data)
 - **Base Layer:** Google Earth Satellite API
-- **Plugins:** - `Leaflet-Measure` for distance/area tools.
-    - `Leaflet-Hash` for URL-based location tracking.
-    - `Autolinker` for clickable attribute links.
-    - `L.Control.Layers.Tree` for organized layer management.
-
----
+- **Plugins:** - `Leaflet-Measure` (Tool pengukur)
+    - `Leaflet-Hash` (URL tracking)
+    - `Autolinker` (Clickable links)
+    - `L.Control.Layers.Tree` (Manajemen layer)
